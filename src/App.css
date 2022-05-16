@@ -1,0 +1,117 @@
+.app {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.pt10{
+  padding-top: 10px;
+}
+.pb10{
+  padding-bottom: 10px;;
+}
+input[type="text"] {
+  height:36px;
+  width:300px;
+  margin-top: 10px;
+}
+
+input[type="password"] {
+  height:36px;
+  width:300px;
+  margin-top: 10px;
+}
+.label{
+  padding-top: 10px;
+}
+
+input[type="button"] {
+  height:36px;
+  width:100px;
+  background-color: #ffc107;
+  border:0px;
+  border-radius:5%;
+}
+.align-right{
+  text-align: right;
+}
+select{
+  margin-top: 10px;
+  height:36px;
+  width:310px;
+}
+.hl{
+  padding-left: 0px;
+}
+.hl li{
+  list-style: none;
+}
+.header {
+    display: flex;
+    background-color: #d71f28;
+    border-bottom: 5px solid #ffcd41;
+    padding: 0.6rem 9rem !important;
+    flex-flow: row nowrap;
+}
+
+.title {
+    display: inline-block;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #fff;
+}
+.card-container.card {
+    max-width: 400px;
+    padding: 40px 40px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.user-card {
+    border-radius: 10px;
+    border-top: 5px solid #ffcd41;
+    padding: 20px !important;
+    max-width: 500px !important;
+}
+.icon-dev {
+    height: 48px;
+    width: 48px;
+    border-radius: 64px;
+    background-color: #e7dcdc;
+}
+
+.employee-initials {
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 48px;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.name-list {
+    display: flex !important;
+    padding-top:15px;
+}
+.nv {
+    padding-left:15px;
+}
+.srch-user {
+    padding-top:15px;
+}
+.login-name {
+    font-size: 1.1rem;
+}
+
+
