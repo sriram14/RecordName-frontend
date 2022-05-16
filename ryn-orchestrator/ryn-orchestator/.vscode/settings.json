@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d8d3f55a-8679-4dad-bbe3-3b851100c78e/resourceGroups/rg-MobileEnablementServices/providers/Microsoft.Web/sites/ryn-orchestrator",
+    "appService.deploySubpath": "."
+}
