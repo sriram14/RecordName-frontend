@@ -66,7 +66,7 @@ class FindFriends extends React.Component{
     }
     async asyncRemoveFriend(friendId){
       let params={"userid":'mr.chandoo@gmail.com',"frienduserid":friendId}
-        axios.post('https://recordname.azure-api.net/partner/RemoveFriend?friendid='+friendId,params).then((e)=>{
+        axios.post('https://ryn-partnerapp.azure-api.net/api/Friend/RemoveFriend?friendid='+friendId,params).then((e)=>{
             this.getAllUsers();
         }).catch((e)=>{
             alert("failure");

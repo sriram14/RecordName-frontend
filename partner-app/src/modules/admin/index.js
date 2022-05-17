@@ -47,7 +47,7 @@ class MakeAdmin extends React.Component{
     }
     async asyncAddFriend(friendId){
       let params={userid:friendId}
-        axios.post('https://ryn-partnerapp.azure-api.net/api/User/CreateAdmin',params).then((e)=>{
+        axios.post(`https://ryn-partnerapp.azure-api.net/api/User/CreateAdmin?userid=${friendId}`).then((e)=>{
             this.getAllUsers();
         }).catch((e)=>{
             alert("failure");
@@ -58,7 +58,7 @@ class MakeAdmin extends React.Component{
     }
     async asyncRemoveFriend(friendId){
       let params={"userid":'mr.chandoo@gmail.com',"frienduserid":friendId}
-        axios.post('https://recordname.azure-api.net/partner/RemoveFriend',params).then((e)=>{
+        axios.post('https://ryn-partnerapp.azure-api.net/api/User/DeleteAdmin?userid='+friendId,params).then((e)=>{
             this.getAllUsers();
         }).catch((e)=>{
             alert("failure");

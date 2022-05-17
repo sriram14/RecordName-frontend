@@ -35,7 +35,7 @@ class Login extends React.Component{
     }
     getAudioStatus=()=>{
       setTimeout(()=>{
-        let w = new window.RecordYourName(APP_KEY);
+        let w = new window.RecordYourName(APP_KEY,"https://partner-app-ryn.azurewebsites.net/");
         let userId = window.localStorage.getItem("userid");
         let params=[
           {
